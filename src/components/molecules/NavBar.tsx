@@ -27,7 +27,7 @@ export const NavBar = () => {
             className="flex justify-between items-center relative px-3 py-10"
         >
             <Button
-                className="sm:hidden bg-none"
+                className="sm:hidden bg-none transition-all"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
                 {isMenuOpen ? (

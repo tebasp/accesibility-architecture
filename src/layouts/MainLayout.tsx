@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import Head from 'next/head'
 import { NavBar } from '@/components/molecules'
+import { NeonCircle } from '@/components/atoms'
 
 interface Props {
     children: JSX.Element | JSX.Element[]
@@ -26,7 +27,8 @@ export const MainLayout: FC<Props> = ({
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="h-full max-w-6xl overflow-visible mx-auto text-white font-light">
+            <div className="relative h-full w-full overflow-visible text-white font-light max-w-6xl mx-auto">
+                <NeonCircle className="left-10 sm:left-[25%] md:left-[30%] lg:left-[35%] top-28" />
                 <NavBar />
                 <main>{children}</main>
             </div>
