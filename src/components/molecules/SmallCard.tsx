@@ -22,7 +22,7 @@ export const SmallCard: FC<Props> = ({
     color = '#6EE7B7',
 }) => {
     return (
-        <div className="bg-gray-900 flex justify-between items-center p-5 rounded-2xl w-full mx-1 h-28">
+        <div className="bg-gray-900 flex justify-between items-center p-5 rounded-2xl w-full sm:mx-1 h-28">
             <CheckCircleIcon
                 width={35}
                 height={35}
