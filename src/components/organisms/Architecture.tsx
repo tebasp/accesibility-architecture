@@ -3,9 +3,9 @@ import { Title } from '@/components/atoms'
 
 export const Architecture = () => {
     return (
-        <section className="mt-20 sm:mt-32">
-            <Title>Arquitectura</Title>
-            <div className="flex flex-col  sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
+        <section className="mt-20 sm:mt-32 px-2">
+            <Title className="!text-4xl sm:!text-5xl">Arquitectura</Title>
+            <div className="block sm:flex sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
                 <SmallCard
                     title="Diseño"
                     description="Diseño limpio orientado al tipo se usuario"
