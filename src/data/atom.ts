@@ -1,5 +1,4 @@
 export const atom = [
-    'Unidad mínima de componente',
     'Id único',
     'No atributos repetidos',
     'Texto alternativo',
