@@ -10,8 +10,7 @@ export const FrameworksLogos: FC<Props> = ({ className }) => {
         <Image
             src="/logos.svg"
             alt="Frameworks logotipos"
-            width={800}
-            height={200}
+            fill
             className={`mx-auto ${className}`}
         />
     )
