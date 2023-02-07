@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import {} from '@heroicons/react/24/outline'
 
 import { Avatar, BrandLogo, Button } from '@/components/atoms'
 import { MobilMenu } from '@/components/molecules'
