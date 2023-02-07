@@ -1,11 +1,10 @@
 import { MainLayout } from '@/layouts/MainLayout'
+import { Hero } from '@/components/organisms'
 
 export default function Home() {
     return (
         <MainLayout>
-            <h1 className="transition-all text-xl  hover:text-2xl">
-                Hello world!
-            </h1>
+            <Hero />
         </MainLayout>
     )
 }

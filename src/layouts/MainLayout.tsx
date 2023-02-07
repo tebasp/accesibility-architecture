@@ -27,8 +27,7 @@ export const MainLayout: FC<Props> = ({
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="relative h-full w-full overflow-visible text-white font-light max-w-6xl mx-auto">
-                <NeonCircle className="left-10 sm:left-[25%] md:left-[30%] lg:left-[35%] top-28" />
+            <div className="relative h-full w-full overflow-x-hidden text-white font-light max-w-6xl mx-auto">
                 <NavBar />
                 <main>{children}</main>
             </div>
