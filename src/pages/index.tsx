@@ -1,10 +1,11 @@
 import { MainLayout } from '@/layouts/MainLayout'
-import { Hero } from '@/components/organisms'
+import { Hero, Support } from '@/components/organisms'
 
 export default function Home() {
     return (
         <MainLayout>
             <Hero />
+            <Support />
         </MainLayout>
     )
 }
