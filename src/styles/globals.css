@@ -35,7 +35,11 @@ html, body, body > div {
         radial-gradient(56.47% 76.87% at 6.92% 7.55%, rgba(62, 136, 246, 0.7) 0%, rgba(62, 158, 246, 0.182) 52.16%, rgba(62, 246, 246, 0) 100%),
         linear-gradient(306.53deg, #2EE4E3 19.83%, rgba(46, 228, 227, 0) 97.33%);
         background-blend-mode: normal,normal,normal,normal,normal,normal;
+        background-position-x: center;
+        background-position-y: top;
         filter: blur(50px);
+        opacity: 0.5;
+        z-index: 0;
     }
 
 }

@@ -9,7 +9,7 @@ interface Props {
 
 export const MobilMenu: FC<Props> = ({ navigation, action }) => {
     return (
-        <div className="absolute left-0 top-28 bg-slate-800 w-full p-3 rounded fade-in">
+        <div className="absolute left-0 top-28 bg-slate-800 w-full p-3 rounded fade-in z-20">
             <nav>
                 <ul className="flex flex-col divide-y divide-slate-600">
                     {navigation.map((item) => (
