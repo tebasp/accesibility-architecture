@@ -6,8 +6,6 @@ interface Props {
 
 export const NeonCircle: FC<Props> = ({ className }) => {
     return (
-        <div
-            className={`absolute w-screen neon-circle opacity-20 ${className}`}
-        ></div>
+        <div className={`absolute neon-circle opacity-20 ${className}`}></div>
     )
 }
