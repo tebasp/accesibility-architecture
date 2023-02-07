@@ -1,7 +1,7 @@
 import { FC } from 'react'
 
 interface Props {
-    children: JSX.Element | JSX.Element[]
+    children: string | JSX.Element | JSX.Element[]
 }
 
 export const ListItem: FC<Props> = ({ children }) => {
