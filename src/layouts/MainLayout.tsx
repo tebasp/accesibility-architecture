@@ -27,7 +27,7 @@ export const MainLayout: FC<Props> = ({
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="relative h-full w-full overflow-x-hidden text-white font-light max-w-6xl mx-auto">
+            <div className="relative h-full w-full text-white font-light max-w-6xl mx-auto">
                 <NavBar />
                 <main>{children}</main>
             </div>
