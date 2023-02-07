@@ -29,6 +29,7 @@ export const NavBar = () => {
             <Button
                 className="sm:hidden bg-none transition-all"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
+                ariaLabel="Abrir menu"
             >
                 {isMenuOpen ? (
                     <XMarkIcon width={24} height={24} />
