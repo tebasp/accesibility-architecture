@@ -2,7 +2,7 @@ import { FC } from 'react'
 import Image from 'next/image'
 
 import { Card, List } from '@/components/molecules'
-import { ListItem } from '@/components/atoms'
+import { ListItem, Title } from '@/components/atoms'
 
 import { atomicDesign } from '@/data'
 
@@ -13,9 +13,9 @@ interface Props {
 export const ArchitectureImplementation: FC<Props> = ({ className }) => {
     return (
         <section className={`px-2 ${className}`}>
-            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6 sm:mb-10">
+            <Title className="text-3xl sm:text-4xl mb-6 sm:mb-10 sm:py-0 from-lime-200 to-pink-400">
                 Implementación
-            </h2>
+            </Title>
             <Card className="block sm:flex justify-between items-center py-16 px-12 mb-5 !bg-none !bg-slate-900">
                 <div className="w-full sm:w-1/2">
                     <p className="my-5 text-md sm:text-2xl">
