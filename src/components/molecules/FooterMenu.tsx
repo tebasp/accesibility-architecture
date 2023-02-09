@@ -1,13 +1,12 @@
 import Link from 'next/link'
 import { INavigation } from '@/components/molecules/NavBar'
+import { FC } from 'react'
 
-const navigation: INavigation[] = [
-    { name: 'Inicio', url: '/' },
-    { name: 'Arquitectura', url: '#' },
-    { name: 'Diseño atómico', url: '#' },
-]
+interface Props {
+    navigation: INavigation[]
+}
 
-export const FooterMenu = () => {
+export const FooterMenu: FC<Props> = ({ navigation }) => {
     return (
         <nav className="">
             <ul className="flex space-x-5">

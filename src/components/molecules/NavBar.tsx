@@ -11,9 +11,9 @@ export interface INavigation {
     url: string
 }
 
-const navigation: INavigation[] = [
+export const navigation: INavigation[] = [
     { name: 'Inicio', url: '/' },
-    { name: 'Arquitectura', url: '#' },
+    { name: 'Arquitectura', url: '/architecture' },
     { name: 'Diseño atómico', url: '#' },
 ]
 
