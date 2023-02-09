@@ -1,7 +1,7 @@
 import { ListItem, Title } from '@/components/atoms'
 import { Card, List } from '@/components/molecules'
 
-import { atom, molecule, page } from '@/data'
+import { atom, molecule, organism, page } from '@/data'
 import Image from 'next/image'
 
 export const ArchitectureDefinition = () => {
@@ -27,7 +27,7 @@ export const ArchitectureDefinition = () => {
 
                 <div className="hidden sm:block relative w-1/2 h-[300px]">
                     <Image
-                        src="/button-shell.svg"
+                        src="/button-shell.png"
                         alt="Ejemplo de componente de átomo"
                         fill
                         className={`mx-auto`}
@@ -56,14 +56,14 @@ export const ArchitectureDefinition = () => {
                 <Card className="block w-full sm:flex justify-between items-center py-16 px-12 !from-sky-500 !to-fuchsia-400 sm:w-1/2 mb-5">
                     <div className="w-full">
                         <h2 className="text-3xl sm:text-4xl font-bold">
-                            Molécula
+                            Organismo
                         </h2>
                         <p className="my-5 text-md sm:text-2xl">
-                            Representa la agrupación de átomos
+                            Representa la agrupación de moléculas{' '}
                         </p>
 
                         <List>
-                            {molecule.map((item) => (
+                            {organism.map((item) => (
                                 <ListItem key={item}>{item}</ListItem>
                             ))}
                         </List>
@@ -87,7 +87,7 @@ export const ArchitectureDefinition = () => {
 
                 <div className="hidden sm:block relative w-1/2 h-[300px]">
                     <Image
-                        src="/page-shell.svg"
+                        src="/page-shell.png"
                         alt="Ejemplo de componente de átomo"
                         fill
                         className={`mx-auto`}
