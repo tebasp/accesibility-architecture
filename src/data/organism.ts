@@ -1,5 +1,4 @@
 export const organism = [
-    'Grupo de moléculas',
     'HTML semántico',
     'Interacción y navegación con teclado',
     'Orden de enfoque',
