@@ -25,12 +25,12 @@ export const ArchitectureDefinition = () => {
                     </List>
                 </div>
 
-                <div className="hidden sm:block relative w-1/2 h-[300px]">
+                <div className="hidden sm:flex justify-center items-center relative w-1/2 h-[300px]">
                     <Image
                         src="/button-shell.png"
                         alt="Ejemplo de componente de átomo"
-                        fill
-                        className={`mx-auto`}
+                        width={400}
+                        height={400}
                     />
                 </div>
             </Card>
@@ -85,12 +85,12 @@ export const ArchitectureDefinition = () => {
                     </List>
                 </div>
 
-                <div className="hidden sm:block relative w-1/2 h-[300px]">
+                <div className="hidden sm:flex justify-center items-center relative w-1/2 h-[300px]">
                     <Image
                         src="/page-shell.png"
                         alt="Ejemplo de componente de átomo"
-                        fill
-                        className={`mx-auto`}
+                        width={400}
+                        height={400}
                     />
                 </div>
             </Card>
