@@ -12,7 +12,7 @@ interface Props {
 
 export const ArchitectureContent: FC<Props> = ({ className }) => {
     return (
-        <section className={`px-2 ${className}`}>
+        <section id="architecture-content" className={`px-2 ${className}`}>
             <Title className="text-3xl sm:text-4xl mb-6 sm:mb-10 sm:py-0 from-cyan-200 to-pink-400">
                 Contenido
             </Title>
@@ -22,14 +22,12 @@ export const ArchitectureContent: FC<Props> = ({ className }) => {
                         El contenido debe ser claro y conciso, acorde al público
                         al que va dirigido
                     </p>
-
                     <List>
                         {content.map((item) => (
                             <ListItem key={item}>{item}</ListItem>
                         ))}
                     </List>
                 </div>
-
                 <div className="hidden sm:flex justify-center items-center w-1/2 h-[300px]">
                     <Image
                         src="/button-shell.png"

@@ -7,7 +7,7 @@ import { design } from '@/data'
 
 export const ArchitectureDesign = () => {
     return (
-        <section className="px-2">
+        <section id="architecture-design" className="px-2">
             <Title className="text-3xl sm:text-4xl mb-6 sm:mb-10 sm:py-0 from-amber-300 to-pink-300">
                 Diseño
             </Title>

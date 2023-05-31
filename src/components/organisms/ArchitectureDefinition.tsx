@@ -14,9 +14,9 @@ export const ArchitectureDefinition = () => {
             <Card className="block sm:flex justify-between items-center py-16 px-12 mb-5">
                 <div className="w-full sm:w-1/2">
                     <h2 className="text-3xl sm:text-4xl font-bold">Átomos</h2>
-                    <p className="my-5 text-md sm:text-2xl">
+                    <h3 className="my-5 text-md sm:text-2xl">
                         Los átomos son la unidad mínima a nivel de componente
-                    </p>
+                    </h3>
 
                     <List>
                         {atom.map((item) => (
@@ -41,9 +41,9 @@ export const ArchitectureDefinition = () => {
                         <h2 className="text-3xl sm:text-4xl font-bold">
                             Molécula
                         </h2>
-                        <p className="my-5 text-md sm:text-2xl">
+                        <h3 className="my-5 text-md sm:text-2xl">
                             Representa la agrupación de átomos
-                        </p>
+                        </h3>
 
                         <List>
                             {molecule.map((item) => (
@@ -58,9 +58,9 @@ export const ArchitectureDefinition = () => {
                         <h2 className="text-3xl sm:text-4xl font-bold">
                             Organismo
                         </h2>
-                        <p className="my-5 text-md sm:text-2xl">
+                        <h3 className="my-5 text-md sm:text-2xl">
                             Representa la agrupación de moléculas{' '}
-                        </p>
+                        </h3>
 
                         <List>
                             {organism.map((item) => (
@@ -74,9 +74,9 @@ export const ArchitectureDefinition = () => {
             <Card className="block sm:flex justify-between items-center py-16 px-12 from-violet-500 !to-cyan-400">
                 <div className="w-full sm:w-1/2">
                     <h2 className="text-3xl sm:text-4xl font-bold">Página</h2>
-                    <p className="my-5 text-md sm:text-2xl">
+                    <h3 className="my-5 text-md sm:text-2xl">
                         Representa la agrupación de organismo y moléculas
-                    </p>
+                    </h3>
 
                     <List>
                         {page.map((item) => (
@@ -88,7 +88,7 @@ export const ArchitectureDefinition = () => {
                 <div className="hidden sm:flex justify-center items-center relative w-1/2 h-[300px]">
                     <Image
                         src="/page-shell.png"
-                        alt="Ejemplo de componente de átomo"
+                        alt="Ejemplo de componente de página"
                         width={400}
                         height={400}
                     />

@@ -10,7 +10,7 @@ export const HeroContent = () => {
                 Desarrolla aplicaciones web desde su concepcion hasta la puesta
                 en producción aplicando la accesibilidad desde el principio.
             </p>
-            <Button className="m-12" url="#">
+            <Button className="m-12" url="#section-architecture">
                 Comenzar
             </Button>
         </div>

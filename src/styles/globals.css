@@ -8,6 +8,12 @@ html, body, body > div {
 
 }
 
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+}
+
 @layer utilities {
     @keyframes fadeIn {
         0% {

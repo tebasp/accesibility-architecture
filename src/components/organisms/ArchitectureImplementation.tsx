@@ -12,7 +12,10 @@ interface Props {
 
 export const ArchitectureImplementation: FC<Props> = ({ className }) => {
     return (
-        <section className={`px-2 ${className}`}>
+        <section
+            id="architecture-implementation"
+            className={`px-2 ${className}`}
+        >
             <Title className="text-3xl sm:text-4xl mb-6 sm:mb-10 sm:py-0 from-lime-200 to-pink-400">
                 Implementación
             </Title>
